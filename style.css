@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    border: border-box;
+    font-family: arial;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navlogo{
+    height: 40px;
+    width: 100px;
+    transform: translate(0,-9px);
+}
+.logo{
+    height: 35px;
+    width: 160px;
+    background-image: url(Images/logo.png);
+    background-size: cover;
+    transform: translate(-2.3rem,0.8rem);
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px white solid;
+}
+.deliver{
+    font-size: 0.8rem;
+    color: #cccccc;
+    margin-left: 13px;
+}
+.india{
+    font-size: 1rem;
+    color: #ffffff;
+    margin-left: 3px;
+}
+.gps-icon{
+    display: flex;
+    align-items: center;
+}
+.search{
+    display: flex;
+    width: 650px;
+    height: 40px;
+    padding: none;
+    border-radius: 0.4rem;
+    
+    border: 3px solid transparent;
+}
+.search:hover{
+    border: 3px solid rgb(196, 142, 60);
+}
+#search-box{
+    width:770px;
+    padding: 0;
+    border: none;
+}
+#search-button{
+    height: 2.5rem;
+    width: 3.2rem;
+    border-top-right-radius:0.3rem ;
+    border-bottom-right-radius:0.3rem ;
+    border: none;
+    background-color: rgb(196, 142, 60);
+}
+#category{
+    height: 2.5rem;
+    border-top-left-radius: 0.3rem;
+    border-bottom-left-radius: 0.3rem;
+    border: none;
+    background-color: #f3f3f3;
+    width: 3rem;
+    text-align: center;
+}
+.upper{
+    font-size: 0.75rem;
+}
+.lower{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cart i{
+    font-size: 2rem;
+}
+.cart{
+    font-size:1rem ;
+    font-weight: 600;
+}
+.bar-2{
+    color: white;
+    height: 39px;
+    display: flex;
+    font-size: 14px;
+    background-color: #222f3d;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.options{
+    width: 84%;
+}
+.options p{
+    display: inline;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.free-space{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* main */
+
+.main-section{
+    height: 310px;
+    background-image:url(Images/main.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.msg{
+    background-color: white;
+    height: 40px;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.link{
+    text-decoration: none;
+    color: #007185;
+}
+
+/* content */
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #4E01C1;
+}
+.box{
+    height: 420px;
+    width: 360px;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-img{
+    height: 360px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.box-content{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+h2{
+    font-size: 20px;
+}
+.see-more{
+    font-size: 15px;
+}
+.box-small-img{
+    height: 175px;
+    width: 150px;
+    margin: 10px;
+}
+.small-boxes{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Footer */
+
+.footer-1{
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+.footer-2{
+    height: 300px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:flex-start;
+    padding-top: 30px;
+}
+ul{
+    list-style-type: none;
+    font-size: 14px;
+}
+li{
+    margin-bottom: 15px;
+}
+li a:hover{
+    text-decoration: underline;
+}
+.footer-3{
+    background-color: #222f3d;
+    height: 70px;
+    border-top: 0.001px solid white;
+    padding-top: 15px;
+}
+.logo-1{
+    height: 50px;
+    background-image: url(Images/logo1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-left: 46%;
+}
+.footer-4{
+    height: 50px;
+    background-color: #0f1111;
+    color: white;
+    padding-top: 20px;
+    /* display: flex;
+    justify-content: center;
+    text-wrap: wrap; */
+}
+.last{
+    width: 40%;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 29%;
+}
+.last a:hover{
+    text-decoration: underline;
+}
+.copyright{
+    margin-top: 8px;
+    justify-content: center;
+}
